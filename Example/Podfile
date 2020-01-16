@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'APSFrameworkDemo_Example' do
+  pod 'APSFrameworkDemo', :path => '../'
+
+  target 'APSFrameworkDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
