@@ -1,0 +1,22 @@
+{
+  "name": "APSFrameworkDemo",
+  "version": "0.1.0",
+  "summary": "A short description of APSFrameworkDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangfenglin/APSFrameworkDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangfenglin": "58685292+kakakaaxi-gy@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangfenglin/APSFrameworkDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "APSFrameworkDemo/Classes/**/*"
+}

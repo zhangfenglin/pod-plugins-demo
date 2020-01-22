@@ -1,0 +1,16 @@
+PODS:
+  - APSFrameworkDemo (0.1.0)
+
+DEPENDENCIES:
+  - APSFrameworkDemo (from `../`)
+
+EXTERNAL SOURCES:
+  APSFrameworkDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  APSFrameworkDemo: 974e2024bb156181194e78923ceddcf23542d6e0
+
+PODFILE CHECKSUM: 7d0af810c1389b66db10cbe3dd4a2ddc368435e1
+
+COCOAPODS: 1.8.4

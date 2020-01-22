@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		BD28DFD023D06DE000BAF5A5 /* ASPFrameworkBuilder */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BD28DFD323D06DE000BAF5A5 /* Build configuration list for PBXAggregateTarget "ASPFrameworkBuilder" */;
+			buildPhases = (
+				BD28DFD423D06DE700BAF5A5 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ASPFrameworkBuilder;
+			productName = ASPFrameworkBuilder;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,10 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DEB18EA52C9FB3F237B2CF7 /* APSFrameworkDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = APSFrameworkDemo.podspec; path = ../APSFrameworkDemo.podspec; sourceTree = "<group>"; };
+		0DEB18EA52C9FB3F237B2CF7 /* APSFrameworkDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = APSFrameworkDemo.podspec; path = ../APSFrameworkDemo.podspec; sourceTree = "<group>"; };
 		21C84EFB1C5449E12853E73A /* Pods_APSFrameworkDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APSFrameworkDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37199756EAD2578EBAEF0FB7 /* Pods-APSFrameworkDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APSFrameworkDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-APSFrameworkDemo_Tests/Pods-APSFrameworkDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		40C3D75D0C672F5BB6E1EE37 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		40C3D75D0C672F5BB6E1EE37 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* APSFrameworkDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSFrameworkDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,7 +76,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77E55D7C05F4ECA9205CEDC6 /* Pods-APSFrameworkDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APSFrameworkDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-APSFrameworkDemo_Tests/Pods-APSFrameworkDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		789547C274E65FFE4E49B522 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		789547C274E65FFE4E49B522 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		80B269469EECCD0E0EE98C55 /* Pods_APSFrameworkDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APSFrameworkDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A39CAD1B8672FBE032E7132C /* Pods-APSFrameworkDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APSFrameworkDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-APSFrameworkDemo_Example/Pods-APSFrameworkDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +207,6 @@
 				37199756EAD2578EBAEF0FB7 /* Pods-APSFrameworkDemo_Tests.debug.xcconfig */,
 				77E55D7C05F4ECA9205CEDC6 /* Pods-APSFrameworkDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,8 +261,17 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhangfenglin;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9WGPWSSEL5;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 9WGPWSSEL5;
 						TestTargetID = 6003F589195388D20070C39A;
+					};
+					BD28DFD023D06DE000BAF5A5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						DevelopmentTeam = 9WGPWSSEL5;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -258,6 +280,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -268,6 +291,7 @@
 			targets = (
 				6003F589195388D20070C39A /* APSFrameworkDemo_Example */,
 				6003F5AD195388D20070C39A /* APSFrameworkDemo_Tests */,
+				BD28DFD023D06DE000BAF5A5 /* ASPFrameworkBuilder */,
 			);
 		};
 /* End PBXProject section */
@@ -334,6 +358,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-APSFrameworkDemo_Example/Pods-APSFrameworkDemo_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		BD28DFD423D06DE700BAF5A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/ruby;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/Users/zhangfenglin/Documents/APUS/Libraries/iOS-SDK/XALPlugin/bin/xal publish framework\n";
 		};
 		F0E8F8446FD4C2E4257CFE23 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -494,6 +535,7 @@
 			baseConfigurationReference = BA6450EE046D30FDCFA5FA00 /* Pods-APSFrameworkDemo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WGPWSSEL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APSFrameworkDemo/APSFrameworkDemo-Prefix.pch";
 				INFOPLIST_FILE = "APSFrameworkDemo/APSFrameworkDemo-Info.plist";
@@ -510,6 +552,7 @@
 			baseConfigurationReference = A39CAD1B8672FBE032E7132C /* Pods-APSFrameworkDemo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9WGPWSSEL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APSFrameworkDemo/APSFrameworkDemo-Prefix.pch";
 				INFOPLIST_FILE = "APSFrameworkDemo/APSFrameworkDemo-Info.plist";
@@ -526,6 +569,7 @@
 			baseConfigurationReference = 37199756EAD2578EBAEF0FB7 /* Pods-APSFrameworkDemo_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9WGPWSSEL5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -551,6 +595,7 @@
 			baseConfigurationReference = 77E55D7C05F4ECA9205CEDC6 /* Pods-APSFrameworkDemo_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9WGPWSSEL5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -564,6 +609,24 @@
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APSFrameworkDemo_Example.app/APSFrameworkDemo_Example";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		BD28DFD123D06DE000BAF5A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WGPWSSEL5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD28DFD223D06DE000BAF5A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WGPWSSEL5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -593,6 +656,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD28DFD323D06DE000BAF5A5 /* Build configuration list for PBXAggregateTarget "ASPFrameworkBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD28DFD123D06DE000BAF5A5 /* Debug */,
+				BD28DFD223D06DE000BAF5A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
